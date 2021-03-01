@@ -1,32 +1,35 @@
 ﻿// CppLearn.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
 
+#include <string>
 #include <iostream>//引入iostream库，等价于把这个库复制粘贴放到这一行
+#include "Debug.h"
 using namespace std;//引入std命名空间
 /// <summary>
 /// 声明函数原型
 /// </summary>
 /// <param name="message"></param>
-void Log(string message);
+void Foo(string message);
 
 /// <summary>
 /// 函数调用在函数引用之前，则不需要申明函数原型
 /// </summary>
 /// <param name="message"></param>
-void Log1(double message)
+void Foo1(double message)
 {
 	cout << message << endl;
 }
 
 int main()
 {
-	Log1(1.0);
+	Debug debug;
+	debug.Log("str");
+
+	Foo1(1.0);
+	Foo("8980");
 
 	const double pi(3.1415926);
-
 	cout << int(pi) << endl;
-
-	Log("8980");
 
 	return 0;
 
@@ -46,46 +49,13 @@ int main()
 	cout << "Hello" << endl;//endl 会换行  
 }
 
-class Debug
-{
-public:
-	Debug();
-	~Debug();
-	void Log(string message);
-	void Log(int message);
-	void Log(double message);
-
-private:
-
-};
-
-Debug::Debug()
-{
-}
-
-Debug::~Debug()
-{
-}
-
 /// <summary>
 /// 函数的定义
 /// </summary>
-/// <param name="message"></param>
-void Debug::Log(string message)
+void Foo(string message)
 {
 	cout << message << endl;
 }
-
-void Debug::Log(int message)
-{
-	cout << message << endl;
-}
-
-void Debug::Log(double message)
-{
-	cout << message << endl;
-}
-
 
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单
