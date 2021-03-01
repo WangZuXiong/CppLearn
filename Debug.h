@@ -10,6 +10,7 @@ public:
 	void Log(string message);
 	void Log(int message);
 	void Log(double message);
+	static void StaticLog(string message);
 
 private:
 

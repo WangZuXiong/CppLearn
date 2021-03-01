@@ -1,2 +1,5 @@
 ﻿  CppLearn.cpp
+  Debug.cpp
+E:\wangzuxiong\Unity Project\CppLearn\Debug.cpp(1,10): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+  正在生成代码...
   CppLearn.vcxproj -> E:\wangzuxiong\Unity Project\CppLearn\Debug\CppLearn.exe

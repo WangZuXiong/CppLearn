@@ -22,6 +22,10 @@ void Foo1(double message)
 
 int main()
 {
+	return 0;
+	//调用一个静态函数
+	Debug::StaticLog("call static function success");
+
 	Debug debug;
 	debug.Log("str");
 

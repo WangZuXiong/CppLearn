@@ -23,4 +23,9 @@ void Debug::Log(double message)
 	cout << message << endl;
 }
 
+void Debug::StaticLog(string message)
+{
+	cout << message << endl;
+}
+
 
