@@ -12,3 +12,7 @@ void Box::set(double len, double bre, double hei)
 	breadth = bre;
 	height = hei;
 }
+
+void Box::ShowCount()
+{
+}
