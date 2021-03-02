@@ -1,6 +1,4 @@
 ﻿// CppLearn.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
-//
-
 #include <string>
 #include <iostream>//引入iostream库，等价于把这个库复制粘贴放到这一行
 #include "Debug.h"
@@ -20,7 +18,8 @@ void Foo1(double message)
 	cout << message << endl;
 }
 
-int main()
+
+int main1()
 {
 	return 0;
 	//调用一个静态函数
