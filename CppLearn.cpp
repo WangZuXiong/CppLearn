@@ -2,7 +2,10 @@
 #include <string>
 #include <iostream>//引入iostream库，等价于把这个库复制粘贴放到这一行
 #include "Debug.h"
+#include "IntNum.h"
+#include <vector>
 using namespace std;//引入std命名空间
+int main();
 /// <summary>
 /// 声明函数原型
 /// </summary>
@@ -11,6 +14,7 @@ void Foo(string message);
 
 /// <summary>
 /// 函数调用在函数引用之前，则不需要申明函数原型
+/// 这个函数不是某个类的成员函数，而是在类外作为独立的全局函数
 /// </summary>
 /// <param name="message"></param>
 void Foo1(double message)
@@ -18,9 +22,67 @@ void Foo1(double message)
 	cout << message << endl;
 }
 
-
-int main1()
+int average(const vector<int>& arr)
 {
+	auto length = arr.size();
+	auto sum = 0;
+	for (size_t i = 0; i < length; i++)
+	{
+		sum += arr[i];
+	}
+	float temp = sum / length;
+	//return temp;
+	return static_cast<int>(temp);
+}
+
+IntNum GetIntNum()
+{
+	//调用了构造函数
+	IntNum intNum;
+	//调用了复制构造函数
+	IntNum intNum2(intNum);
+	//调用了移动构造函数
+	return intNum;
+}
+
+int main()
+{
+	GetIntNum();
+	return 0;
+	//基于范围的for循环配合auto的举例
+	vector<double> vs(10);
+	for (auto i = vs.begin(); i != vs.end(); i++)
+	{
+		cout << *i << endl;
+	}
+
+	for (auto e : vs)
+	{
+		cout << e;
+	}
+
+
+	return 0;
+	vector<int> intArr(2);
+	auto length = intArr.size();
+	for (int i = 0; i < length; i++)
+	{
+		cin >> intArr[i];
+	}
+
+	cout << "average:" + to_string(average(intArr)) << endl;
+
+	//cout << intArr.size() << endl;
+
+
+	return 0;
+
+	int(*cp)[9][8] = new int[1][9][8];
+
+
+	char(*fp)[3];
+	fp = new char[3][3];
+
 	return 0;
 	//调用一个静态函数
 	Debug::StaticLog("call static function success");
