@@ -19,8 +19,22 @@ void Foo1(double message)
 }
 
 
-int main1()
+int main22()
 {
+	int a[10], * pa;
+	pa = a;
+	cout << pa << endl;		//000000335E8FF378
+	cout << &a[0] << endl;	//000000335E8FF378
+
+	//数组名也是数组的首地址
+
+
+	cout << &a[1] << endl;	//000000D8BF4FF4CC
+	cout << &a[2] << endl;	//000000D8BF4FF4D0
+
+
+
+
 	return 0;
 	//调用一个静态函数
 	Debug::StaticLog("call static function success");
