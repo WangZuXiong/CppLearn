@@ -27,7 +27,7 @@
     <ClCompile Include="Line.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Test.cpp">
+    <ClCompile Include="IntNum.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
@@ -44,7 +44,7 @@
     <ClInclude Include="Line.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="Test.h">
+    <ClInclude Include="IntNum.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

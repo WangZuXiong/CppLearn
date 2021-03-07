@@ -142,12 +142,14 @@
     <ClCompile Include="Box.cpp" />
     <ClCompile Include="CppLearn.cpp" />
     <ClCompile Include="Debug.cpp" />
+    <ClCompile Include="IntNum.cpp" />
     <ClCompile Include="Line.cpp" />
     <ClCompile Include="Test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Box.h" />
     <ClInclude Include="Debug.h" />
+    <ClInclude Include="IntNum.h" />
     <ClInclude Include="Line.h" />
     <ClInclude Include="Temp.h" />
     <ClInclude Include="Test.h" />

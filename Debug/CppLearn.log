@@ -1,3 +1,6 @@
-﻿  Line.cpp
-E:\wangzuxiong\Unity Project\CppLearn\Line.cpp(36,1): warning C4326: “main”的返回类型应为“int”而非“void”
+﻿  CppLearn.cpp
+E:\wangzuxiong\Unity Project\CppLearn\CppLearn.cpp(33,13): warning C4244: “初始化”: 从“unsigned int”转换到“float”，可能丢失数据
+E:\wangzuxiong\Unity Project\CppLearn\CppLearn.cpp(68,20): warning C4018: “<”: 有符号/无符号不匹配
+  IntNum.cpp
+  正在生成代码...
   CppLearn.vcxproj -> E:\wangzuxiong\Unity Project\CppLearn\Debug\CppLearn.exe
