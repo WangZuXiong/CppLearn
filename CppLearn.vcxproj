@@ -144,6 +144,7 @@
     <ClCompile Include="Debug.cpp" />
     <ClCompile Include="IntNum.cpp" />
     <ClCompile Include="Line.cpp" />
+    <ClCompile Include="Test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Box.h" />
@@ -151,6 +152,7 @@
     <ClInclude Include="IntNum.h" />
     <ClInclude Include="Line.h" />
     <ClInclude Include="Temp.h" />
+    <ClInclude Include="Test.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
