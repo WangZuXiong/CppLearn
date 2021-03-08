@@ -1,6 +1,4 @@
 ﻿  CppLearn.cpp
 E:\wangzuxiong\Unity Project\CppLearn\CppLearn.cpp(33,13): warning C4244: “初始化”: 从“unsigned int”转换到“float”，可能丢失数据
-E:\wangzuxiong\Unity Project\CppLearn\CppLearn.cpp(68,20): warning C4018: “<”: 有符号/无符号不匹配
-  IntNum.cpp
-  正在生成代码...
+E:\wangzuxiong\Unity Project\CppLearn\CppLearn.cpp(75,20): warning C4018: “<”: 有符号/无符号不匹配
   CppLearn.vcxproj -> E:\wangzuxiong\Unity Project\CppLearn\Debug\CppLearn.exe

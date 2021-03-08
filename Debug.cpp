@@ -29,3 +29,10 @@ void Debug::StaticLog(string message)
 }
 
 
+
+//void Debug::LogT(const T *obj)
+//{
+//	cout << obj << endl;
+//}
+
+

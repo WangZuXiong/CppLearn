@@ -47,6 +47,13 @@ IntNum GetIntNum()
 
 int main()
 {
+	int x1 = 1;
+	Debug::LogT(x1);
+
+	Debug::LogT(1.1f);
+
+	return 0;
+
 	GetIntNum();
 	return 0;
 	//基于范围的for循环配合auto的举例
