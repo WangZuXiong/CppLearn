@@ -32,11 +32,11 @@ void display(Line obj)
 	//cout << "line 大小：" << obj.getLength() << endl;
 }
 
-void main1()
-{
-	Line line(10);
-	//这里把实参->形参 发生了拷贝；则会调用拷贝构造函数
-	//display(line);
-
-	Line line1 = line;
-}
+//void main1()
+//{
+//	Line line(10);
+//	//这里把实参->形参 发生了拷贝；则会调用拷贝构造函数
+//	//display(line);
+//
+//	Line line1 = line;
+//}

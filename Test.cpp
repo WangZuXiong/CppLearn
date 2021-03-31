@@ -1,7 +1,7 @@
 #include "Test.h"
 
 
-void main()
+void main1()
 {
 	//ÉùÃ÷
 	int array[3]{ 0,1,2 };
