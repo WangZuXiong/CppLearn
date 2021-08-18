@@ -144,6 +144,7 @@
     <ClCompile Include="Debug.cpp" />
     <ClCompile Include="IntNum.cpp" />
     <ClCompile Include="Line.cpp" />
+    <ClCompile Include="PixelArt.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="Test.cpp" />
   </ItemGroup>
@@ -152,6 +153,7 @@
     <ClInclude Include="Debug.h" />
     <ClInclude Include="IntNum.h" />
     <ClInclude Include="Line.h" />
+    <ClInclude Include="PixelArt.h" />
     <ClInclude Include="Player.h" />
     <ClInclude Include="Temp.h" />
     <ClInclude Include="Test.h" />
